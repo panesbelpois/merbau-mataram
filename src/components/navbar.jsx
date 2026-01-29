@@ -17,7 +17,6 @@ const Navbar = () => {
 
   const menus = [
     { name: "Beranda", path: "/" },
-    { name: "Profil Desa", path: "/profil" },
     { name: "Potensi", path: "/potensi" },
     { name: "Galeri", path: "/galeri" },
   ];
@@ -26,24 +25,23 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled
           ? "bg-white/80 backdrop-blur-md shadow-lg shadow-sky-200/20 py-2"
           : "bg-white py-4"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          
+
           {/* LOGO SECTION */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="relative">
               {/* Glow Biru di belakang logo */}
               <div className="absolute inset-0 bg-sky-200 rounded-full blur opacity-40 group-hover:opacity-70 transition-opacity"></div>
-              <img 
-                className="h-10 w-auto relative z-10 transform group-hover:rotate-6 transition-transform duration-300" 
-                src={LogoLampung} 
-                alt="Logo" 
+              <img
+                className="h-10 w-auto relative z-10 transform group-hover:rotate-6 transition-transform duration-300"
+                src={LogoLampung}
+                alt="Logo"
               />
             </div>
             <div className="flex flex-col">
@@ -63,11 +61,10 @@ const Navbar = () => {
                 <Link
                   key={menu.name}
                   to={menu.path}
-                  className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${
-                    isActive(menu.path)
+                  className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 ${isActive(menu.path)
                       ? "bg-white text-merbau-primary shadow-sm shadow-sky-100"
                       : "text-merbau-text hover:text-merbau-primary hover:bg-white/60"
-                  }`}
+                    }`}
                 >
                   {menu.name}
                 </Link>
@@ -104,11 +101,10 @@ const Navbar = () => {
         </div>
       </div>
 
-     {/* MOBILE DROPDOWN (Posisi Diperbaiki: Otomatis di bawah Header) */}
-      <div 
-        className={`md:hidden absolute top-full left-4 right-4 mt-2 bg-white rounded-3xl border border-sky-100 shadow-xl shadow-sky-500/10 overflow-hidden transition-all duration-300 origin-top transform ${
-          isOpen ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-4 pointer-events-none"
-        }`}
+      {/* MOBILE DROPDOWN (Posisi Diperbaiki: Otomatis di bawah Header) */}
+      <div
+        className={`md:hidden absolute top-full left-4 right-4 mt-2 bg-white rounded-3xl border border-sky-100 shadow-xl shadow-sky-500/10 overflow-hidden transition-all duration-300 origin-top transform ${isOpen ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-4 pointer-events-none"
+          }`}
       >
         <div className="p-4 flex flex-col gap-2">
           {menus.map((menu) => (
@@ -117,11 +113,10 @@ const Navbar = () => {
               to={menu.path}
               onClick={() => setIsOpen(false)}
               // Style item menu tetap rapi dan imut
-              className={`flex items-center justify-between px-5 py-3 rounded-2xl font-semibold transition-all ${
-                isActive(menu.path)
+              className={`flex items-center justify-between px-5 py-3 rounded-2xl font-semibold transition-all ${isActive(menu.path)
                   ? "bg-sky-50 text-sky-700 pl-7"
                   : "text-gray-600 hover:bg-sky-50/50 hover:text-sky-500 hover:pl-7"
-              }`}
+                }`}
             >
               {menu.name}
               {isActive(menu.path) && (
@@ -129,7 +124,7 @@ const Navbar = () => {
               )}
             </Link>
           ))}
-          
+
           <div className="h-px bg-sky-100 my-1 mx-4"></div>
 
           {/* TOMBOL HUBUNGI KAMI (Biru & Jelas) */}

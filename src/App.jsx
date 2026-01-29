@@ -13,7 +13,7 @@ const router = createBrowserRouter([
                 element: <Home />,
             },
             {
-                path: 'profil',
+                path: 'profil-desa/:id',
                 element: <ProfilDesa />,
             },
         ],
