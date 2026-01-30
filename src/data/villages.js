@@ -1,3 +1,4 @@
+// Karang Jaya Imports
 import karangJaya1 from '../assets/karang-jaya/1.jpeg';
 import karangJaya2 from '../assets/karang-jaya/2.jpeg';
 import karangJaya3 from '../assets/karang-jaya/3.jpeg';
@@ -155,32 +156,32 @@ export const villages = [
         id: 7,
         name: "Panca Tunggal",
         kecamatan: "Merbau Mataram",
-        images: ["https://placehold.co/800x400/8B5CF6/ffffff?text=Kampung+Aman"],
-        history: "Dikenal dengan sistem Siskamling terbaik se-kabupaten. Warganya sangat guyub rukun.",
-        mapUrl: "",
-        address: "Jl. Bhayangkara, Kecamatan Merbau Mataram",
-        gmapsLink: "",
+        images: ["https://placehold.co/800x400/8B5CF6/ffffff?text=Panca+Tunggal"],
+        history: "Data tidak tersedia.",
+        mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Panca%20tunggal%2C%20merbau%20mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+        address: "HF64+32G, Jl. Candipuro - Bandarlampung Raya No.16, Panca Tunggal, Kec. Merbau Mataram, Kabupaten Lampung Selatan, Lampung 35361",
+        gmapsLink: "https://maps.app.goo.gl/tdb3uS6d8ENYhRF27",
         boundaries: {
-            north: "Desa Galih Lunik (Kecamatan Tanjung Bintang)",
-            east: "Desa Triharjo",
-            south: "Desa Karang Raja dan Desa Merbau Mataram",
-            west: "Way Laga/Srengsem (Kecamatan Panjang, Kota Bandar Lampung)"
+            north: "Data tidak tersedia",
+            east: "Data tidak tersedia",
+            south: "Data tidak tersedia",
+            west: "Data tidak tersedia"
         }
     },
     {
         id: 8,
         name: "Mekar Jaya",
         kecamatan: "Merbau Mataram",
-        images: ["https://placehold.co/800x400/EC4899/ffffff?text=Desa+Bersih"],
-        history: "Juara lomba desa bersih berkali-kali. Memiliki bank sampah yang dikelola mandiri oleh warga.",
-        mapUrl: "",
-        address: "Jl. Melati, Kecamatan Merbau Mataram",
-        gmapsLink: "",
+        images: ["https://placehold.co/800x400/EC4899/ffffff?text=Mekar+Jaya"],
+        history: "Data tidak tersedia.",
+        mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Mekar%20Jaya%2C%20merbau%20mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+        address: "G96M+9FH, Jl. Sumberjo Suban, Sumbejo bawah, Mekar Jaya, Kec. Merbau Mataram, Kabupaten Lampung Selatan, Lampung 35357",
+        gmapsLink: "https://maps.app.goo.gl/A584ereRkZu4N9PZA",
         boundaries: {
-            north: "Desa Galih Lunik (Kecamatan Tanjung Bintang)",
-            east: "Desa Triharjo",
-            south: "Desa Karang Raja dan Desa Merbau Mataram",
-            west: "Way Laga/Srengsem (Kecamatan Panjang, Kota Bandar Lampung)"
+            north: "Data tidak tersedia",
+            east: "Data tidak tersedia",
+            south: "Data tidak tersedia",
+            west: "Data tidak tersedia"
         }
     },
     {
