@@ -137,7 +137,7 @@ const Home = () => {
 
                     {/* Map Info Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-12 justify-items-center">
-                        <div className="bg-white rounded-lg p-6 text-center hover:bg-gray-50 transition-colors w-full max-w-xs border border-gray-200">
+                        <div className="bg-red-50 rounded-lg p-6 text-center hover:bg-red-100 transition-colors w-full max-w-xs">
                             <div className="text-3xl font-bold text-red-700 mb-2">15</div>
                             <p className="text-gray-700 font-medium">Desa</p>
                         </div>
@@ -145,7 +145,7 @@ const Home = () => {
                             <div className="text-3xl font-bold text-green-600 mb-2">~158 km²</div>
                             <p className="text-gray-700 font-medium">Luas Wilayah</p>
                         </div>
-                        <div className="bg-purple-50 rounded-lg p-6 text-center hover:bg-purple-100 transition-colors w-full max-w-xs">
+                        <div className="bg-red-50 rounded-lg p-6 text-center hover:bg-red-100 transition-colors w-full max-w-xs">
                             <div className="text-3xl font-bold text-red-600 mb-2">~58.000</div>
                             <p className="text-gray-700 font-medium">Jumlah Penduduk</p>
                         </div>
@@ -153,20 +153,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* CTA Section */}
-            <section className="py-16 bg-gradient-to-r from-red-800 to-red-900">
-                <div className="w-full px-6 lg:px-12 text-center">
-                    <h2 className="text-5xl font-bold text-white mb-6">Ingin Tahu Lebih Banyak?</h2>
-                    <p className="text-2xl text-red-100 mb-8 max-w-2xl mx-auto">
-                        Jelajahi profil lengkap, statistik, dan program-program pembangunan Kecamatan Merbau Mataram
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link to="/kontak" className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block">
-                            Hubungi Kami
-                        </Link>
-                    </div>
-                </div>
-            </section>
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import HomepagePic from '../assets/homepage-pic.jpg';
-import HomepagePic1 from '../assets/homepage-pic1.jpg';
-import HomepagePic2 from '../assets/homepage-pic2.jpg';
+import HomepagePic from '../assets/homepage-pic.jpeg';
+import HomepagePic1 from '../assets/homepage-pic1.jpeg';
+import HomepagePic2 from '../assets/homepage-pic2.jpeg';
 
 const HeroSection = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
