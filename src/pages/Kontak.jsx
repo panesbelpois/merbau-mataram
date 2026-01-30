@@ -1,5 +1,6 @@
 import React from 'react';
 import { villageHeads } from '../data/villageHeads';
+import AvatarPlaceholder from '../assets/avatar-placeholder.svg';
 
 const Kontak = () => {
     return (
@@ -18,10 +19,10 @@ const Kontak = () => {
                 {villageHeads.map((head) => (
                     <div key={head.id} className="bg-white rounded-2xl p-6 shadow-lg shadow-sky-100 hover:shadow-sky-200 transition-all duration-300 border border-sky-50 flex flex-col items-center text-center group">
                         <div className="relative mb-4">
-                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-sky-100 group-hover:border-sky-300 transition-colors">
+                            <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-gray-200 group-hover:border-gray-300 transition-colors bg-white">
                                 <img
-                                    src={head.photoUrl}
-                                    alt={head.headName}
+                                    src={AvatarPlaceholder}
+                                    alt="Placeholder avatar"
                                     className="w-full h-full object-cover"
                                 />
                             </div>

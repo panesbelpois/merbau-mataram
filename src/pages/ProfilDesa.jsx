@@ -28,7 +28,7 @@ const ProfilDesa = () => {
             <div className="min-h-screen flex items-center justify-center">
                 <div className="text-center">
                     <h2 className="text-2xl font-bold text-gray-800">Desa tidak ditemukan</h2>
-                    <Link to="/" className="text-indigo-600 hover:text-indigo-800 mt-4 inline-block">
+                    <Link to="/" className="text-red-700 hover:text-red-900 mt-4 inline-block">
                         Kembali ke Beranda
                     </Link>
                 </div>
@@ -95,7 +95,7 @@ const ProfilDesa = () => {
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-200 pb-4">
                                 Sejarah & Profil Desa
                             </h2>
-                            <div className="prose prose-lg prose-indigo max-w-none text-gray-700 leading-relaxed text-justify">
+                            <div className="prose prose-lg prose-red max-w-none text-gray-700 leading-relaxed text-justify">
                                 <p>{village.history || village.description}</p>
                             </div>
                         </section>
@@ -137,7 +137,7 @@ const ProfilDesa = () => {
                                             href={village.gmapsLink}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-800 transition-colors"
+                                            className="inline-flex items-center text-red-700 font-semibold hover:text-red-900 transition-colors"
                                         >
                                             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />

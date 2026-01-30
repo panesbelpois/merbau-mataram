@@ -87,7 +87,7 @@ const Home = () => {
                     <div className="text-center mb-16">
                         <h2 className="text-5xl font-bold text-gray-900 mb-6">Visi Kami</h2>
                         <div className="inline-block">
-                            <p className="text-3xl font-bold text-indigo-600 leading-relaxed max-w-4xl">
+                            <p className="text-4xl font-bold text-red-900 leading-relaxed max-w-4xl">
                                 "Mewujudkan Lampung Selatan Maju Menuju Indonesia Emas 2045."
                             </p>
                         </div>
@@ -99,7 +99,7 @@ const Home = () => {
                         <div className="flex flex-wrap justify-center gap-8">
                             {missions.map((m, idx) => (
                                 <div key={idx} className={`bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group ${idx === 6 ? 'md:col-span-1 flex-basis-1/3 md:flex-basis-1/3 lg:w-1/3 max-w-sm' : 'w-full sm:w-96'}`}>
-                                    <div className="h-24 bg-sky-500 flex items-center justify-center">
+                                    <div className="h-24 bg-red-900 text-white flex items-center justify-center">
                                         {m.icon}
                                     </div>
                                     <div className="p-6">
@@ -138,7 +138,7 @@ const Home = () => {
                     {/* Map Info Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-12 justify-items-center">
                         <div className="bg-white rounded-lg p-6 text-center hover:bg-gray-50 transition-colors w-full max-w-xs border border-gray-200">
-                            <div className="text-3xl font-bold text-sky-600 mb-2">15</div>
+                            <div className="text-3xl font-bold text-red-700 mb-2">15</div>
                             <p className="text-gray-700 font-medium">Desa</p>
                         </div>
                         <div className="bg-green-50 rounded-lg p-6 text-center hover:bg-green-100 transition-colors w-full max-w-xs">
@@ -146,7 +146,7 @@ const Home = () => {
                             <p className="text-gray-700 font-medium">Luas Wilayah</p>
                         </div>
                         <div className="bg-purple-50 rounded-lg p-6 text-center hover:bg-purple-100 transition-colors w-full max-w-xs">
-                            <div className="text-3xl font-bold text-purple-600 mb-2">~58.000</div>
+                            <div className="text-3xl font-bold text-red-600 mb-2">~58.000</div>
                             <p className="text-gray-700 font-medium">Jumlah Penduduk</p>
                         </div>
                     </div>
@@ -154,10 +154,10 @@ const Home = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600">
+            <section className="py-16 bg-gradient-to-r from-red-800 to-red-900">
                 <div className="w-full px-6 lg:px-12 text-center">
                     <h2 className="text-5xl font-bold text-white mb-6">Ingin Tahu Lebih Banyak?</h2>
-                    <p className="text-2xl text-indigo-100 mb-8 max-w-2xl mx-auto">
+                    <p className="text-2xl text-red-100 mb-8 max-w-2xl mx-auto">
                         Jelajahi profil lengkap, statistik, dan program-program pembangunan Kecamatan Merbau Mataram
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">

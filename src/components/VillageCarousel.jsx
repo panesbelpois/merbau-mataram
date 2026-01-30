@@ -122,7 +122,7 @@ const VillageCarousel = () => {
 
                                 {/* Content */}
                                 <div className="p-6">
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition-colors">
                                         {village.name}
                                     </h3>
                                     <p className="text-gray-600 text-sm leading-relaxed">
@@ -130,7 +130,7 @@ const VillageCarousel = () => {
                                     </p>
                                     <Link
                                         to={`/profil-desa/${village.id}`}
-                                        className="mt-4 inline-flex items-center text-indigo-600 font-semibold text-sm hover:text-indigo-700 transition-colors"
+                                        className="mt-4 inline-flex items-center text-red-700 font-semibold text-sm hover:text-red-800 transition-colors"
                                     >
                                         Pelajari Lebih Lanjut
                                         <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

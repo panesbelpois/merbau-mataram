@@ -9,11 +9,11 @@ const Footer = () => {
       {/* Full-width blue card (keep colors unchanged) */}
       <div className="w-full bg-transparent py-8">
         <div className="w-full px-6 lg:px-12">
-          <div className="bg-sky-500 rounded-[1.5rem] p-6 md:p-8 flex flex-col relative overflow-hidden shadow-xl shadow-sky-200 mb-6">
+          <div className="bg-gradient-to-r from-red-800 to-red-900 rounded-[1.5rem] p-6 md:p-8 flex flex-col relative overflow-hidden shadow-xl shadow-red-900/30 mb-6">
 
           {/* Hiasan background abstrak (keep as-is) */}
           <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-white opacity-10 blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 rounded-full bg-sky-300 opacity-20 blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 rounded-full bg-red-700 opacity-20 blur-3xl"></div>
 
           <div className="w-full px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-12 border-b border-white/10 pb-8">
@@ -24,11 +24,11 @@ const Footer = () => {
                   <img src={LogoLampung} alt="Logo" className="h-12 w-auto" />
                   <div className="flex flex-col">
                     <span className="font-bold text-white text-xl tracking-tight">Merbau Mataram</span>
-                    <span className="text-xs font-medium text-sky-100 tracking-wider">LAMPUNG SELATAN</span>
+                    <span className="text-xs font-medium text-red-100 tracking-wider">LAMPUNG SELATAN</span>
                   </div>
                 </div>
 
-                <p className="text-sky-50 text-sm leading-relaxed">
+                <p className="text-red-50 text-sm leading-relaxed">
                   Website ini dikembangkan oleh <span className="font-bold text-white">KKNT 60 ITERA</span> sebagai langkah digitalisasi daerah guna menyajikan informasi publik yang transparan dan mudah dijangkau oleh siapa saja.
                 </p>
               </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               <div className="md:col-span-7 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start text-white">
                 <div>
                   <h2 className="text-3xl md:text-4xl font-bold mb-1">Layanan Informasi</h2>
-                  <p className="text-sky-50 text-sm md:text-base opacity-90 leading-relaxed mb-4">
+                  <p className="text-red-50 text-sm md:text-base opacity-90 leading-relaxed mb-4">
                     Silakan hubungi kami jika anda memiliki pertanyaan atau membutuhkan bantuan terkait pelayanan kecamatan.
                   </p>
 
@@ -75,13 +75,13 @@ const Footer = () => {
                   <h4 className="font-bold text-white mb-4 text-lg">Menu Utama</h4>
                   <ul className="space-y-3 text-sm">
                     <li>
-                      <Link to="/" className="text-sky-100 hover:text-white transition-colors">Beranda</Link>
+                      <Link to="/" className="text-red-100 hover:text-white transition-colors">Beranda</Link>
                     </li>
                     <li>
-                      <Link to="/desa" className="text-sky-100 hover:text-white transition-colors">Profil Desa</Link>
+                      <Link to="/desa" className="text-red-100 hover:text-white transition-colors">Profil Desa</Link>
                     </li>
                     <li>
-                      <Link to="/kontak" className="text-sky-100 hover:text-white transition-colors">Kontak</Link>
+                      <Link to="/kontak" className="text-red-100 hover:text-white transition-colors">Kontak</Link>
                     </li>
                   </ul>
                 </div>
@@ -89,14 +89,14 @@ const Footer = () => {
 
             </div>
 
-            {/* Bottom row inside blue card */}
+            {/* Bottom row inside card */}
             <div className="mt-6 pt-4 border-t border-white/10 flex flex-col lg:flex-row items-center justify-between gap-4">
-              <p className="text-xs text-sky-100 font-medium">
+              <p className="text-xs text-red-100 font-medium">
                 &copy; {new Date().getFullYear()} Kecamatan Merbau Mataram. All rights reserved.
               </p>
 
               <div className="flex items-center gap-3">
-                <span className="text-[10px] uppercase tracking-wider text-sky-100 font-bold">Powered by</span>
+                <span className="text-[10px] uppercase tracking-wider text-red-100 font-bold">Powered by</span>
                 <a
                   href="https://www.instagram.com/kkntmerbaumataram/"
                   target="_blank"
