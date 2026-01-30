@@ -22,6 +22,37 @@ import triharjo3 from '../assets/tri-harjo/3.jpeg';
 import lebungSari1 from '../assets/lebung-sari/1.jpeg';
 import lebungSari2 from '../assets/lebung-sari/2.jpeg';
 import lebungSari3 from '../assets/lebung-sari/3.jpeg';
+// Additional images
+import merbauMataramImg from '../assets/additional/1.png';
+import baruRanjiImg from '../assets/additional/2.jpg';
+import sinarKaryaImg from '../assets/additional/3.png';
+import batuAgungImg from '../assets/additional/4.png';
+import pancaTunggalImg from '../assets/additional/5.png';
+
+// Tanjung Harapan Imports
+import tanjungHarapan1 from '../assets/tanjung-harapan/1.jpeg';
+import tanjungHarapan2 from '../assets/tanjung-harapan/2.jpeg';
+import tanjungHarapan3 from '../assets/tanjung-harapan/3.jpeg';
+
+// Suban Imports
+import suban1 from '../assets/suban/1.jpg';
+import suban2 from '../assets/suban/2.png';
+import suban3 from '../assets/suban/3.png';
+
+// Mekar Jaya Imports
+import mekarJaya1 from '../assets/mekar-jaya/1.jpg';
+import mekarJaya2 from '../assets/mekar-jaya/2.jpg';
+import mekarJaya3 from '../assets/mekar-jaya/3.jpg';
+
+// Tanjung Baru Imports
+import tanjungBaru1 from '../assets/tanjung-baru/1.jpeg';
+import tanjungBaru2 from '../assets/tanjung-baru/2.jpeg';
+import tanjungBaru3 from '../assets/tanjung-baru/3.jpeg';
+
+// Puji Rahayu Imports
+import pujiRahayu1 from '../assets/puji-rahayu/1.png';
+import pujiRahayu2 from '../assets/puji-rahayu/2.png';
+import pujiRahayu3 from '../assets/puji-rahayu/3.png';
 
 export const villages = [
     {
@@ -29,9 +60,7 @@ export const villages = [
         name: "Merbau Mataram",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/4F46E5/ffffff?text=Desa+Merbau+Mataram+1",
-            "https://placehold.co/800x400/4338ca/ffffff?text=Desa+Merbau+Mataram+2",
-            "https://placehold.co/800x400/3730a3/ffffff?text=Desa+Merbau+Mataram+3"
+            merbauMataramImg
         ],
         history: "Desa Merbau Mataram adalah salah satu desa utama yang menjadi denyut nadi di Kecamatan Merbau Mataram, Kabupaten Lampung Selatan. Berjarak sekitar 25 km dari pusat Ibu Kota Kabupaten (Kalianda), desa ini memiliki posisi strategis dengan bentang alam yang bervariasi. Dengan luas wilayah administratif mencapai kurang lebih 1.411 Hektar, desa ini memadukan kawasan pemukiman yang tertata dengan hamparan lahan pertanian dan perkebunan yang subur.Secara historis, desa ini memiliki rekam jejak patriotisme yang sangat kuat. Wilayah yang dulunya merupakan hutan belantara ini mulai dibuka pada sekitar tahun 1952 oleh para Pejuang Kemerdekaan RI. Mereka adalah bagian dari program transmigrasi yang dikelola oleh Biro Rekonstruksi Nasional (BRN) Yogyakarta. Pengiriman rombongan mantan pejuang ini dilakukan secara bertahap dan terorganisir di bawah kepemimpinan masing-masing kepala rombongan, yang kemudian meletakkan batu pertama peradaban di tanah Merbau Mataram. Saat ini, Desa Merbau Mataram tumbuh menjadi wilayah yang cukup padat dengan populasi mencapai lebih dari 6.900 jiwa. Masyarakat di sini hidup rukun dalam keberagaman, dengan fokus pembangunan yang berorientasi pada peningkatan kualitas sumber daya manusia dan infrastruktur desa. Di bawah kepemimpinan Kepala Desa saat ini, Bapak Sumaryo, desa terus berupaya mengoptimalkan potensi yang ada demi mewujudkan kemandirian ekonomi warga. Sebagai desa yang lahir dari semangat perintis, sektor pertanian tetap menjadi penopang utama ekonomi masyarakat. Kondisi tanahnya yang subur mendukung produktivitas komoditas unggulan seperti padi, jagung, dan tanaman perkebunan lainnya. Dengan nilai-nilai gotong royong yang diwariskan oleh para pejuang BRN, Desa Merbau Mataram kini terus bertransformasi menjadi desa yang maju tanpa meninggalkan jati diri sejarahnya.",
         organization: [
@@ -119,9 +148,7 @@ export const villages = [
         name: "Baru Ranji",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/F59E0B/ffffff?text=Baru+Ranji+1",
-            "https://placehold.co/800x400/F59E0B/ffffff?text=Baru+Ranji+2",
-            "https://placehold.co/800x400/F59E0B/ffffff?text=Baru+Ranji+3"
+            baruRanjiImg
         ],
         history: "Desa Baru Ranji merupakan desa strategis di Kecamatan Merbau Mataram yang menjadi 'gerbang' karena berbatasan langsung dengan Ibukota Provinsi, Kota Bandar Lampung. Dengan luas wilayah mencapai 1.858 Hektar, desa ini memiliki topografi pegunungan yang asri namun memiliki aksesibilitas kota yang sangat baik. Secara historis, desa ini memiliki akar yang kuat sejak masa kolonial. Awalnya dikenal sebagai 'Kampung Baru' sejak tahun 1920, wilayah ini dipimpin oleh tokoh-tokoh seperti Bapak Tubagus Hadis dan Bapak Kadir. Nama 'Kampung Baru' melekat hingga tahun 1982, sebelum akhirnya resmi berganti nama menjadi Desa Baru Ranji berdasarkan Undang-Undang No. 05 Tahun 1979. Saat ini, Desa Baru Ranji terus berkembang di bawah kepemimpinan Kepala Desa Bapak Misnandri (Periode 2021–2029), melanjutkan estafet kepemimpinan yang telah berganti lebih dari 10 kali sejak 1920. Berbeda dengan desa lain yang murni agraris, Desa Baru Ranji memiliki karakteristik ekonomi yang unik karena posisinya sebagai penyangga kota. Denyut ekonomi masyarakat sangat hidup, ditandai dengan menjamurnya sektor perdagangan dan UMKM. Tercatat terdapat sekitar 200 toko dan warung kelontong yang tersebar di wilayah ini, menjadikan sektor perdagangan sebagai salah satu penopang utama ekonomi warga selain pertanian. Dari sisi fasilitas publik, desa ini sangat mandiri dengan ketersediaan sarana pendidikan yang lengkap mulai dari PAUD, 4 unit SD/MI, 3 unit SMP/MTs, hingga SMA/SMK. Kehidupan sosial masyarakatnya yang padat (lebih dari 6.700 jiwa) terbagi ke dalam 7 Dusun (Ranji, Sukanenah, Simpang Sari, Pilar, Hutan Tua, Cidadap, dan Merbau), menciptakan lingkungan yang dinamis namun tetap guyub.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Baru%20Ranji%2C%20Kecamatan%20Mebau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -139,7 +166,9 @@ export const villages = [
         name: "Desa Suban",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/EF4444/ffffff?text=Desa+Makmur"
+            suban1,
+            suban2,
+            suban3
         ],
         history: "Desa Suban merupakan salah satu desa penyangga yang memiliki peranan penting di Kecamatan Merbau Mataram, Kabupaten Lampung Selatan. Secara geografis, desa ini berada di wilayah dataran tinggi dengan pemandangan perbukitan yang asri, menjadikannya salah satu wilayah yang sejuk dan strategis karena berbatasan langsung dengan akses menuju pusat kota dan kecamatan tetangga. Dalam catatan sejarahnya, Desa Suban dikenal sebagai salah satu 'Desa Induk' yang telah eksis jauh sebelum pemekaran beberapa desa di sekitarnya. Perjalanan administratifnya mencatat kepemimpinan awal yang cukup panjang, di mana desa ini pernah dipimpin oleh Bapak Abdullah hingga sekitar tahun 1974, yang kemudian estafet kepemimpinannya dilanjutkan oleh Bapak M. Sarbakhi. Sebagai desa tua, Suban memiliki andil besar dalam perkembangan wilayah Merbau Mataram, termasuk dalam proses pembentukan desa-desa baru di sekitarnya. Saat ini, Desa Suban tumbuh menjadi pemukiman yang dinamis dengan populasi mencapai lebih dari 5.000 jiwa. Kehidupan bermasyarakat di sini terbagi ke dalam 9 dusun utama, yang mencerminkan keragaman dan luasnya cakupan wilayah desa. Di bawah kepemimpinan Bapak Mansyur (Kades saat ini), desa terus berbenah dalam meningkatkan infrastruktur layanan publik dan pemberdayaan masyarakat desa guna menghadapi tantangan zaman. Kekuatan utama ekonomi Desa Suban terletak pada sektor agraris dan perkebunan. Kondisi tanahnya yang subur serta topografinya yang mendukung menjadikan desa ini sebagai penghasil komoditas pertanian yang potensial. Sebagian besar warga mengandalkan hasil bumi sebagai mata pencaharian utama, yang dikelola dengan semangat kekeluargaan yang masih sangat kental. Dengan perpaduan kekayaan alam dan sejarah panjangnya, Desa Suban terus berupaya menjadi desa yang mandiri dan kompetitif di Lampung Selatan.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Suban%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -156,7 +185,7 @@ export const villages = [
         id: 7,
         name: "Panca Tunggal",
         kecamatan: "Merbau Mataram",
-        images: ["https://placehold.co/800x400/8B5CF6/ffffff?text=Panca+Tunggal"],
+        images: [pancaTunggalImg],
         history: "Data tidak tersedia.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Panca%20tunggal%2C%20merbau%20mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
         address: "HF64+32G, Jl. Candipuro - Bandarlampung Raya No.16, Panca Tunggal, Kec. Merbau Mataram, Kabupaten Lampung Selatan, Lampung 35361",
@@ -172,7 +201,11 @@ export const villages = [
         id: 8,
         name: "Mekar Jaya",
         kecamatan: "Merbau Mataram",
-        images: ["https://placehold.co/800x400/EC4899/ffffff?text=Mekar+Jaya"],
+        images: [
+            mekarJaya1,
+            mekarJaya2,
+            mekarJaya3
+        ],
         history: "Data tidak tersedia.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Mekar%20Jaya%2C%20merbau%20mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
         address: "G96M+9FH, Jl. Sumberjo Suban, Sumbejo bawah, Mekar Jaya, Kec. Merbau Mataram, Kabupaten Lampung Selatan, Lampung 35357",
@@ -209,7 +242,9 @@ export const villages = [
         name: "Desa Tanjung Baru",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/F97316/ffffff?text=Desa+Sejahtera"
+            tanjungBaru1,
+            tanjungBaru2,
+            tanjungBaru3
         ],
         history: "Desa Tanjung Baru adalah desa dengan populasi yang cukup padat di Kecamatan Merbau Mataram, dengan jumlah penduduk mencapai 11.567 Jiwa. Sejarah desa ini bermula sekitar tahun 1945, dimana wilayah ini awalnya adalah hutan belantara yang mulai dihuni oleh masyarakat bersuku Sunda (Jawa Barat). Seiring berjalannya waktu, desa ini berkembang menjadi wilayah yang sangat majemuk, dihuni oleh berbagai suku seperti Jawa, Batak, Ogan, Padang, Lampung, dan Banten. Salah satu keunikan sejarah Desa Tanjung Baru terekam dalam penamaan jalan-jalannya yang memiliki makna filosofis, seperti Jalan Sakal (dari Bahasa Sunda yang berarti jalan setapak), Jalan Balangandang (berarti hamparan perkebunan), hingga Jalan Sukorejo (dari Bahasa Jawa yang berarti daerah yang subur/makmur). Saat ini, Desa Tanjung Baru dipimpin oleh Bapak Helmi (Periode 2021–2029). Desa Tanjung Baru memiliki karakteristik ekonomi campuran antara pertanian dan sektor jasa/industri, mengingat lokasinya yang dekat dengan kawasan industri dan kota. Mata pencaharian penduduk cukup beragam, didominasi oleh Buruh (1.352 orang) dan Petani (314 orang). Dari sektor pertanian, desa ini memiliki potensi lahan sawah seluas 52 Hektar dan perkebunan buah-buahan yang produktif, seperti Duku (10 Ha) dan Pepaya California (7 Ha). Fasilitas pendidikan di desa ini juga sangat lengkap, mulai dari 7 PAUD, 6 SD/MI, 3 SMP/MTs, hingga 3 SMA/SMK, menjadikannya salah satu pusat pendidikan di kecamatan. Secara administratif, Desa Tanjung Baru terbagi menjadi 12 Dusun yang masing-masing dipimpin oleh Kepala Dusun, yaitu Tanjung Baru, Tegal Sari, Sukorejo, Talang Ulu, Waylaga, M. Sukamanah, Tanjung Rame, Balangandang, Sakal, Kampung Sawah, Pasir Kupa, Way Laga Soker.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Tanjung%20Baru%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -247,12 +282,14 @@ export const villages = [
         name: "Desa Puji Rahayu",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/10B981/ffffff?text=Desa+Sentosa"
+            pujiRahayu1,
+            pujiRahayu2,
+            pujiRahayu3
         ],
-        history: "Terdapat sanggar tari dan musik tradisional yang masih aktif melestarikan budaya lokal.",
-        mapUrl: "",
-        address: "Jl. Wisata, Kecamatan Merbau Mataram",
-        gmapsLink: "",
+        history: "Desa Puji Rahayu adalah Desa hasil pemekaran Desa Talang Jawa dan kala itu masih Desa Persiapan dan semenjak tanggal 19 Agustus 1986 menjadi Desa Difinitif.\n\nAdapun sebelum adanya pemekaran Desa telah dihuni oleh masyarakat sejak kurang lebih 1949 tahun yang mayoritas bersuku jawa dan setelah adanya perkembangan maka Desa Puji Rahayu berpenduduk suku campuran yang berasal dari Sumatera Barat,Palembang,Lampung dan Sunda.\n\nDesa Puji Rahayu dahulunya masuk dalam wilayah Kecamatan Katibung Kabupaten Lampung Selatan dan atas kemajuan perkembangan Pemerintahan,maka wilayah Kecamatan Katibung diadakan Pemekaran wilayah Kecamatan yaitu Kecamatan Merbau Mataram Kabupaten Lampung Selatan dan Desa Puji Rahayu masuk dalam wilayah Kecamatan Merbau Mataram yang Kepala Desanya sejak tahun 1986-tahun 2007 dijabat oleh Sugito dan tahun 2007 – tahun 2019 Kepala Desa Dijabat oleh Wartini  dan tahun 2019- tahun 2025 Kepala Desa Dijabat oleh Sugiarto",
+        mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Puji%20Rahayu%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+        address: "GGV4+77C, Unnamed Road, Pujirahayu, Kec. Merbau Mataram, Kabupaten Lampung Selatan, Lampung 35452",
+        gmapsLink: "https://maps.app.goo.gl/g9rRdLBKC8cnQXVeA",
         boundaries: {
             north: "Desa Galih Lunik (Kecamatan Tanjung Bintang)",
             east: "Desa Triharjo",
@@ -265,12 +302,12 @@ export const villages = [
         name: "Desa Batu Agung",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/F59E0B/ffffff?text=Kampung+Indah"
+            batuAgungImg
         ],
-        history: "Warga sepakat mengecat rumah mereka dengan warna-warni cerah, menjadikan desa ini spot foto yang menarik.",
-        mapUrl: "",
-        address: "Jl. Pelangi, Kecamatan Merbau Mataram",
-        gmapsLink: "",
+        history: "Batu Agung adalah sebuah desa di Kecamatan Merbau Mataram, Kabupaten Lampung Selatan, Provinsi Lampung, Indonesia.",
+        mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Batu%20Agung%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+        address: "HG7C+WRG, Batuagung, Kec. Merbau Mataram, Kabupaten Lampung Selatan, Lampung 34376",
+        gmapsLink: "https://maps.app.goo.gl/UqdDuKRyxCfUPe2t6",
         boundaries: {
             north: "Desa Galih Lunik (Kecamatan Tanjung Bintang)",
             east: "Desa Triharjo",
@@ -283,7 +320,7 @@ export const villages = [
         name: "Desa Sinar Karya",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/EF4444/ffffff?text=Desa+Jaya"
+            sinarKaryaImg
         ],
         history: "Desa Sinar Karya merupakan salah satu potret desa berkembang yang menyimpan potensi besar di Kecamatan Merbau Mataram, Kabupaten Lampung Selatan. Dikenal dengan bentang alamnya yang berbukit dan berudara sejuk, desa ini menawarkan suasana pedesaan yang asri namun tetap dinamis dalam upaya pembangunan infrastruktur dan sumber daya manusianya. Dengan luas wilayah administratif mencapai kurang lebih 394 Hektar, desa ini menjadi rumah bagi sekitar 1.400 jiwa. Masyarakat Sinar Karya dikenal memiliki ikatan sosial yang sangat kuat, di mana nilai-nilai gotong royong masih dijunjung tinggi dalam kehidupan sehari-hari. Kerukunan antarwarga yang terjaga dengan baik menjadi modal utama bagi pemerintah desa dalam menjalankan berbagai program pemberdayaan demi mewujudkan desa yang mandiri. Sektor perkebunan dan peternakan menjadi tulang punggung utama yang menggerakkan roda perekonomian di Sinar Karya. Kondisi tanah yang subur menjadikan desa ini sebagai salah satu penghasil kelapa sawit dan karet yang menjadi komoditas unggulan warga. Tidak hanya itu, sektor peternakan juga berkembang secara berkelanjutan sebagai pilar ekonomi tambahan yang memperkuat ketahanan finansial keluarga di desa tersebut. Geliat ekonomi kreatif di Sinar Karya juga mulai menampakkan hasil melalui sektor UMKM. Industri rumah tangga, seperti produksi tempe dan berbagai olahan makanan ringan, terus tumbuh dan menjadi identitas ekonomi kerakyatan setempat. Dengan perpaduan antara kekayaan hasil bumi dan semangat kewirausahaan warganya, Desa Sinar Karya terus melangkah maju menjadi wilayah yang berdaya saing di tengah perkembangan Kabupaten Lampung Selatan.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Sinar%20Karya%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -301,12 +338,14 @@ export const villages = [
         name: "Desa Tanjung Harapan",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/8B5CF6/ffffff?text=Kampung+Pintar"
+            tanjungHarapan1,
+            tanjungHarapan2,
+            tanjungHarapan3
         ],
-        history: "Desa pertama yang menerapkan sistem administrasi digital dan wifi gratis di pos ronda.",
-        mapUrl: "",
-        address: "Jl. Inovasi, Kecamatan Merbau Mataram",
-        gmapsLink: "",
+        history: "Desa Tanjung Harapan adalah desa seluas 613 Hektar yang terletak di Kecamatan Merbau Mataram, Kabupaten Lampung Selatan. Desa ini memiliki latar belakang sejarah sebagai wilayah transmigrasi yang mulai dibuka dan didirikan pada tahun 1984. Penduduk awal desa ini mayoritas berasal dari Bojonegoro, Jawa Timur, yang membawa budaya gotong royong dan keuletan dalam bertani.\n\nSejak dimekarkan dan menjadi desa definitif, Tanjung Harapan terus berkembang pesat. Kepemimpinan desa berganti secara demokratis, dimana pada pemilihan serentak tahun 2019, Bapak Undang terpilih menjadi Kepala Desa dan membawa visi pembangunan desa yang berbasis pemberdayaan ekonomi masyarakat melalui BUMDes dan UMKM.\n\nBerbeda dengan desa lain yang murni mengandalkan pertanian mentah, Desa Tanjung Harapan memiliki ekosistem ekonomi yang lebih variatif. Sektor perkebunan tetap menjadi tulang punggung dengan komoditas utama Kelapa Sawit (202 Ha) dan persawahan (90 Ha). Namun, desa ini juga dikenal dengan produksi Gula Aren (salah satunya UMKM Gula Aren \"Abah Amin\" yang sudah berdiri sejak 1990) dan memiliki BUMDes Padan yang aktif mengelola unit usaha desa sejak 2016.",
+        mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Tanjung%20Harapan%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
+        address: "RGV8+QHF, Jl. Kec. Marga Tiga, Sumber Gede, Kec. Marga Tiga, Kabupaten Lampung Timur, Lampung 34386",
+        gmapsLink: "https://maps.app.goo.gl/gELSC5RDFzThZvWH7",
         boundaries: {
             north: "Desa Galih Lunik (Kecamatan Tanjung Bintang)",
             east: "Desa Triharjo",
