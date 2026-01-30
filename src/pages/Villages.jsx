@@ -42,7 +42,7 @@ const Villages = () => {
                                         <p className="text-sm text-red-700 font-semibold mb-3">
                                             Kecamatan Merbau Mataram
                                         </p>
-                                        
+
                                         {/* Description */}
                                         <p className="text-gray-600 text-sm leading-relaxed line-clamp-3 mb-4 flex-grow">
                                             {village.history}

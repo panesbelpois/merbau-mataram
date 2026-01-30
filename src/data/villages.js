@@ -1,3 +1,27 @@
+import karangJaya1 from '../assets/karang-jaya/1.jpeg';
+import karangJaya2 from '../assets/karang-jaya/2.jpeg';
+import karangJaya3 from '../assets/karang-jaya/3.jpeg';
+
+// Talang Jawa Imports
+import talangJawa1 from '../assets/talang-jawa/1.jpg';
+import talangJawa2 from '../assets/talang-jawa/2.jpg';
+import talangJawa3 from '../assets/talang-jawa/3.jpg';
+
+// Karang Raja Imports
+import karangRaja1 from '../assets/karang-raja/1.jpeg';
+import karangRaja2 from '../assets/karang-raja/2.jpeg';
+import karangRaja3 from '../assets/karang-raja/3.jpeg';
+
+// Triharjo Imports
+import triharjo1 from '../assets/tri-harjo/1.jpeg';
+import triharjo2 from '../assets/tri-harjo/2.jpeg';
+import triharjo3 from '../assets/tri-harjo/3.jpeg';
+
+// Lebung Sari Imports
+import lebungSari1 from '../assets/lebung-sari/1.jpeg';
+import lebungSari2 from '../assets/lebung-sari/2.jpeg';
+import lebungSari3 from '../assets/lebung-sari/3.jpeg';
+
 export const villages = [
     {
         id: 1,
@@ -34,9 +58,9 @@ export const villages = [
         name: "Talang Jawa",
         kecamatan: "Talang Jawa",
         images: [
-            "https://placehold.co/800x400/7C3AED/ffffff?text=Desa+Talang+Jawa+1",
-            "https://placehold.co/800x400/6d28d9/ffffff?text=Desa+Talang+Jawa+2",
-            "https://placehold.co/800x400/6d28d9/ffffff?text=Desa+Talang+Jawa+3"
+            talangJawa1,
+            talangJawa2,
+            talangJawa3
         ],
         history: "Desa Talang Jawa merupakan wilayah kecamatan Merbau Mataram  Lampung Selatan yang berdiri Pada Tanggal 10 Oktober 1970. Sebagian besar masyarakatnya adalah suku Jawa dengan mata pencaharian salah satunya adalah Petani/Pekebun. Desa Talang Jawa berasal dari Bahasa Sumatra Selatan yang Artinya “Kampung Orang Jawa”, Dahulu ada dua Kampung yaitu Tanjung Kumala dan Gunung Bayan yang Mayoritas di huni oleh Suku Palembang/Baturaja; sekitar tahun 60an masuklah perambah hutan yang mayoritas dari suku Jawa ( SOLO dan DIY) dan membuat gubug-gubug kecil sebagai tempat tinggal sementara. Setelah adanya kampung  jawa maka Talang Jawa masuk Dusun sendiri yang menginduk kepada Desa Neglasari, sebagai Kepala Dusunnya adalah Bp. Sastro Sarmanto. Seiring Perkembangan dan semakin banyaknya jumlah penduduk dan makin banyaknya para pendatang untuk membuat lahan perkebunan dan pertanian serta membuat perkampungan, pada Tanggal 10 Oktober 1970 Dusun Talang Jawa Menjadi sebuah Desa sendiri dengan nama Desa Talang Jawa yang di pimpin oleh Bapak Sastro Sarmanto.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Talang%20Jawa%2C%20Kecamatan%20Mebau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -54,9 +78,9 @@ export const villages = [
         name: "Karang Raja",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/06B6D4/ffffff?text=Karang+Raja+1",
-            "https://placehold.co/800x400/06B6D4/ffffff?text=Karang+Raja+2",
-            "https://placehold.co/800x400/06B6D4/ffffff?text=Karang+Raja+3"
+            karangRaja1,
+            karangRaja2,
+            karangRaja3
         ],
         history: "Desa Karang Raja merupakan salah satu desa dengan akar sejarah yang panjang di wilayah Kecamatan Merbau Mataram, Kabupaten Lampung Selatan. Desa ini dikenal sebagai wilayah yang lahir dari kegigihan para perintis yang berhasil mengubah bentang alam liar menjadi pemukiman yang produktif dan harmonis. Jauh sebelum menjadi wilayah administratif, Karang Raja merupakan sebuah hutan belantara luas yang tidak terjamah. Menurut catatan sejarah dan tutur tokoh masyarakat setempat, sejarah pemukiman ini dimulai pada tahun 1905. Saat itu, kawasan ini hanyalah sebuah perkampungan sangat kecil yang dihuni oleh segelintir penduduk. Namun, seiring waktu, daya tarik kesuburan tanahnya mengundang gelombang pendatang dari daerah Batu Raja, Talang Betung, hingga Talang Mendala. Berkat keramaian yang terus tumbuh, pada tahun 1909, wilayah ini secara resmi mulai menyandang nama 'Karang Raja'. Proses menuju kemandirian desa pun terus berjalan seiring pesatnya pembukaan lahan perkebunan dan pertanian. Pada periode tahun 1925 hingga 1926, dilakukan proses pengukuran tanah yang krusial bagi penataan wilayah. Puncaknya, pada tahun 1927, Karang Raja resmi dikukuhkan sebagai desa definitif. Estafet kepemimpinan pertama dipercayakan kepada Bapak Ishak, yang menjabat sebagai Kepala Desa pertama dan meletakkan fondasi pemerintahan desa yang kokoh.    Hingga saat ini, Desa Karang Raja tetap mempertahankan jati dirinya sebagai desa yang kental dengan nuansa kekeluargaan. Sebagian besar masyarakatnya merupakan Suku Sunda yang membawa adat istiadat yang rukun dan agamis. Denyut nadi perekonomian warga sangat bergantung pada sektor agraris. Kesuburan tanah Karang Raja menjadikan desa ini sebagai penghasil komoditas unggulan, khususnya pada sektor perkebunan kopi dan cengkeh, yang menjadi tumpuan hidup sekaligus identitas ekonomi bagi sebagian besar masyarakatnya.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Karang%20Raja%2C%20Kecamatan%20Mebau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -74,9 +98,9 @@ export const villages = [
         name: "Triharjo",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/10B981/ffffff?text=Triharjo+1",
-            "https://placehold.co/800x400/10B981/ffffff?text=Triharjo+2",
-            "https://placehold.co/800x400/10B981/ffffff?text=Triharjo+3",
+            triharjo1,
+            triharjo2,
+            triharjo3
         ],
         history: "Desa Triharjo adalah desa yang tergolong muda namun memiliki sejarah pembentukan yang unik. Berdiri resmi pada tahun 1999, desa ini merupakan hasil pemekaran dan penggabungan wilayah dari tiga desa induk sekaligus, yaitu Desa Merbau Mataram (Dusun Hargomulyo & Girijoyo), Desa Suban (Dusun Panglong), dan Desa Karang Raja (Dusun Batu Ampar & Purwodadi). Nama 'Triharjo'sendiri mencerminkan penyatuan tiga elemen wilayah tersebut menjadi satu kesatuan yang sejahtera. Sejak berdiri, desa ini telah mengalami beberapa kali pemekaran dusun internal (seperti pemekaran Dusun Girijaya dan Panglong) untuk memaksimalkan pelayanan publik. Estafet kepemimpinan desa dimulai dari Bapak Megeng Sutrisno (1999) hingga saat ini dipimpin oleh Bapak Santoso. Desa Triharjo memiliki karakter agraris yang sangat kuat dengan total luas wilayah pemukiman mencapai 1.203 Ha. Potensi ekonomi utamanya digerakkan oleh sektor pertanian, khususnya sawah tadah hujan seluas 400 Hektar dan ladang/tegalan seluas 160 Hektar. Letaknya sangat strategis, hanya berjarak 1,7 KM dari pusat pemerintahan Kecamatan Merbau Mataram (sekitar 15 menit perjalanan), menjadikan Desa Triharjo sebagai salah satu desa penyangga utama pusat kecamatan. Secara administratif, Desa Triharjo terbagi menjadi 10 Dusun yang dikelola untuk memudahkan tata kelola pemerintahan, antara lain Hargomulyo I & II, Girijaya I & II, Panglong I & II, Batu Ampar, Purwodadi, Stap, dan Tempel Rejo.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Triharjo%2C%20Kecamatan%20Mebau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -164,7 +188,9 @@ export const villages = [
         name: "Karang Jaya",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/14B8A6/ffffff?text=Kampung+Ceria"
+            karangJaya1,
+            karangJaya2,
+            karangJaya3
         ],
         history: "Desa Karang Jaya merupakan salah satu desa di Kecamatan Merbau Mataram yang memiliki sejarah panjang. Awalnya, wilayah ini merupakan bagian dari 'Desa Karang Raja' yang mulai dihuni sejak tahun 1928 oleh pendatang dari daerah Meranjat dan OKU (Sumatera Selatan). Seiring pertumbuhan penduduk dan kebutuhan administrasi, wilayah ini kemudian dimekarkan menjadi desa mandiri bernama Desa Karang Jaya. Desa ini resmi berdiri sebagai desa definitif setelah masa kepemimpinan Bapak Natem (Kepala Desa Induk). Pada masa awal terbentuknya (Desa Persiapan), Desa Karang Jaya dipimpin oleh Bapak M. Sofian hingga tahun 2008, dilanjutkan oleh Pjs. Bapak Chairudin. Tonggak demokrasi desa dimulai pada tahun 2009 dengan terpilihnya Bapak Rudi Hartono sebagai Kepala Desa definitif pertama melalui pemilihan langsung, dan beliau masih tercatat memimpin dalam dokumen profil desa (per Desember 2025). Desa Karang Jaya adalah desa agraris dengan luas wilayah administratif mencapai 1.236 Hektar. Sekitar 75% wilayahnya (800 Ha) didominasi oleh lahan perkebunan, menjadikan sektor pertanian sebagai tulang punggung ekonomi masyarakat. Komoditas utamanya meliputi Jagung, Ubi Kayu, dan Padi. Selain itu, desa ini memiliki potensi UMKM yang berkembang, seperti industri rumah tangga pembuatan Gula Jawa (3 kelompok), mebel, dan olahan makanan ringan (kripik). Secara sosial, masyarakat Desa Karang Jaya dikenal sangat agamis, ditandai dengan keberadaan beberapa Pondok Pesantren di wilayahnya. Desa ini juga memiliki fasilitas pendidikan formal dari tingkat SD hingga SMA/SMK. Wilayah Desa Karang Jaya terbagi menjadi 6 Dusun yang masing-masing dipimpin oleh Kepala Dusun, yaitu Dusun Tanjung Menang, Dusun Talang Betung, Dusun Talang Mendala, Dusun Ampera, Dusun Merbau Pendek, Dusun Tanjung Sari.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Karang%20Jaya%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
@@ -200,7 +226,9 @@ export const villages = [
         name: "Desa Lebung Sari",
         kecamatan: "Merbau Mataram",
         images: [
-            "https://placehold.co/800x400/06B6D4/ffffff?text=Kampung+Damai"
+            lebungSari1,
+            lebungSari2,
+            lebungSari3
         ],
         history: "Desa Lebung Sari memiliki sejarah panjang yang dimulai sekitar tahun 1965, ketika wilayah ini masih berupa hutan belantara. Para perintis awal desa ini berasal dari Desa Talang Jawa serta pendatang dari berbagai daerah seperti Jawa Tengah, Jawa Timur, Banten, Sumatera Barat, hingga penduduk asli Lampung. Keberagaman ini menjadikan Desa Lebung Sari sangat majemuk, dihuni oleh suku Jawa, Sunda, Lampung, Palembang, Batak, Bali, hingga Padang. Secara administratif, Desa Lebung Sari lahir dari pemekaran Desa Talang Jawa pada tahun 1986 (bersamaan dengan Desa Puji Rahayu, Batu Agung, Sinar Karya, dan Tanjung Harapan). Resmi berdiri pada tanggal 9 Juli 1986 dan menjadi desa definitif pada 14 November 1991. Saat ini, Desa Lebung Sari dipimpin oleh Ibu Komariah (Periode 2019–2027), yang melanjutkan kepemimpinan desa menuju kemandirian. Dengan luas wilayah 390,6 Hektar, Desa Lebung Sari memiliki potensi ekonomi yang luar biasa di sektor Agrobisnis. Sektor perkebunan didominasi oleh Kelapa Sawit (92,9 Ha) dan Karet (84,4 Ha). Namun, yang paling menonjol adalah sektor peternakan, dimana tercatat populasi Ayam mencapai 32.000 ekor, menjadikannya salah satu sentra peternakan unggas yang signifikan. Selain itu, terdapat juga budidaya ikan dengan populasi mencapai 25.000 ekor. Desa Lebung Sari berjarak sekitar 16 KM dari pusat kecamatan dan terbagi menjadi 4 Dusun wilayah administrasi, yaitu Dusun Jati Rejo, Dusun Lebung Sari, Dusun Margo Sari, Dusun Sidorejo.",
         mapUrl: "https://maps.google.com/maps?width=600&height=400&hl=en&q=Desa%20Lebung%20Sari%2C%20Kecamatan%20Merbau%20Mataram&t=&z=14&ie=UTF8&iwloc=B&output=embed",
