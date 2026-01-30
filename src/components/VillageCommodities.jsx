@@ -2,7 +2,7 @@ import React from 'react';
 
 const VillageCommodities = () => {
     return (
-        <div className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8 font-poppins">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
 
                 {/* Komoditi Unggulan (Lebar) */}
@@ -39,7 +39,7 @@ const VillageCommodities = () => {
                         ].map((item, idx) => (
                             <li key={idx} className="flex items-center justify-between p-3 bg-white rounded-lg shadow-sm">
                                 <span className="font-medium text-gray-700">{item.job}</span>
-                                <span className="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-0.5 rounded-full">{item.pct}</span>
+                                <span className="bg-gray-100 text-gray-800 text-xs font-bold px-2.5 py-0.5 rounded-full">{item.pct}</span>
                             </li>
                         ))}
                     </ul>

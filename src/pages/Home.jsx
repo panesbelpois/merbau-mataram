@@ -1,29 +1,66 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
-import VillageCarousel from '../components/VillageCarousel';
 import StructureSection from '../components/StructureSection';
 
 const Home = () => {
+    const missions = [
+        {text: 'Mewujudkan masyarakat berakhlak mulia, bermoral, beretika, berbudaya, dan beradab berdasarkan falsafah Pancasila', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h-2m0 0H10m2 0h2M4 12a8 8 0 018-8m0 0a8 8 0 018 8m0 0a8 8 0 01-8 8m0 0a8 8 0 01-8-8" />
+            </svg>
+        )},
+        {text: 'Mewujudkan masyarakat demokratis berlandaskan hukum dengan aman dan damai', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 1112 2.944a11.954 11.954 0 018.618 3.04A12.02 12.02 0 0121 12c0 6.627-5.373 12-12 12s-12-5.373-12-12c0-3.349 1.379-6.527 3.623-8.743" />
+            </svg>
+        )},
+        {text: 'Mewujudkan tata kelola pemerintahan dengan prinsip-prinsip good goovernance', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+        )},
+        {text: 'Memajukan dan memperkuat sumber daya manusia (SDM) secara berkelanjutan', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-2a6 6 0 0112 0v2zm0 0h6v-2a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+        )},
+        {text: 'Mewujudkan pemerataan pembangunan dengan berkeadilan dan berkelanjutan', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h.5a2.5 2.5 0 002.5-2.5V3.035A2 2 0 0020.04 1H3.96a2 2 0 00-2.905 2.935z" />
+            </svg>
+        )},
+        {text: 'Mewujudkan Kabupaten Lampung Selatan sebagai wilayah pantai dan pegunungan yang maju', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 015.646 5.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+        )},
+        {text: 'Mewujudkan Kabupaten Lampung Selatan berperan aktif dalam pergaulan antar Daerah, Nasional dan Internasional.', icon: (
+            <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h.5a2.5 2.5 0 002.5-2.5V3.035A2 2 0 0020.04 1H3.96a2 2 0 00-2.905 2.935z" />
+            </svg>
+        )}
+    ];
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white font-poppins">
             {/* 1. Hero Section */}
             <HeroSection />
 
             {/* 2. Sejarah Singkat Section */}
             <section className="py-16 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="w-full px-6 lg:px-12">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         {/* Left: Text Content */}
                         <div>
-                            <h2 className="text-4xl font-bold text-gray-900 mb-6">Sejarah Singkat</h2>
-                            <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                                Kecamatan Merbau Mataram memiliki sejarah panjang sebagai pusat pemerintahan lokal yang berkontribusi signifikan dalam pembangunan Kabupaten Lampung Selatan. Terbentuk melalui proses administratif yang matang, kecamatan ini telah berkembang menjadi daerah strategis dengan potensi ekonomi dan sosial yang kuat.
+                            <h2 className="text-5xl font-bold text-gray-900 mb-6">Tentang Kami</h2>
+                            <p className="text-xl text-gray-700 leading-relaxed mb-4">
+                                Kecamatan Merbau Mataram merupakan salah satu wilayah administratif di Kabupaten Lampung Selatan yang memiliki peran strategis sebagai daerah penyangga sekaligus penghubung antara kawasan industri Tanjung Bintang dengan pusat kota Bandar Lampung. Secara geografis, wilayah ini didominasi oleh bentang alam berupa dataran rendah dan perbukitan yang menjadikannya sangat potensial di sektor agraris. Struktur ekonominya bertumpu pada sektor perkebunan, terutama karet, kelapa sawit, dan kakao, serta sektor pertanian pangan seperti padi dan jagung yang dikelola oleh masyarakat setempat.
                             </p>
                             <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                                Dengan wilayah yang luas dan penduduk yang tersebar di berbagai desa dan kampung, Kecamatan Merbau Mataram terus berinovasi dalam melayani masyarakat. Program-program pembangunan berkelanjutan telah diterapkan untuk meningkatkan kualitas hidup penduduk, dari infrastruktur hingga pendidikan dan kesehatan.
+                                Kecamatan yang beribu kota di Desa Merbau Mataram ini dikenal memiliki keberagaman demografis yang tinggi. Penduduknya merupakan perpaduan antara masyarakat asli Lampung dan masyarakat transmigran dari Pulau Jawa serta Sunda, yang menciptakan tatanan sosial yang harmonis dan multikultural. Selain sektor pertanian, posisi wilayah ini yang berdekatan dengan jalur logistik utama di Lampung Selatan memicu pertumbuhan pada sektor jasa dan perdagangan kecil hingga menengah.
                             </p>
                             <p className="text-lg text-gray-700 leading-relaxed">
-                                Komitmen kami adalah mewujudkan visi menjadi kecamatan yang maju, mandiri, dan sejahtera bagi seluruh masyarakat yang tinggal di dalamnya.
+                                Dalam perkembangannya, Merbau Mataram kini terus mengalami peningkatan infrastruktur untuk mendukung aksesibilitas antar-desa dan distribusi hasil bumi. Wilayah ini terdiri dari 15 desa yang secara kolektif berkontribusi pada ketahanan pangan daerah, sembari perlahan mulai mengembangkan potensi wisata lokal berbasis alam dan pemberdayaan masyarakat pedesaan.
                             </p>
                         </div>
 
@@ -44,60 +81,32 @@ const Home = () => {
             </section>
 
             {/* 3. Visi & Misi Section */}
-            <section className="py-16 bg-gradient-to-br from-indigo-50 to-purple-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <section className="py-16 bg-white">
+                <div className="w-full px-6 lg:px-12">
                     {/* Visi */}
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl font-bold text-gray-900 mb-6">Visi Kami</h2>
+                        <h2 className="text-5xl font-bold text-gray-900 mb-6">Visi Kami</h2>
                         <div className="inline-block">
-                            <p className="text-2xl font-bold text-indigo-600 leading-relaxed max-w-3xl">
-                                "Mewujudkan Kecamatan Merbau Mataram yang Maju, Mandiri, dan Sejahtera dengan Tata Kelola Pemerintahan yang Baik, Pembangunan Berkelanjutan, dan Masyarakat yang Berkualitas"
+                            <p className="text-3xl font-bold text-indigo-600 leading-relaxed max-w-4xl">
+                                "Mewujudkan Lampung Selatan Maju Menuju Indonesia Emas 2045."
                             </p>
                         </div>
                     </div>
 
-                    {/* Misi - Cards Grid */}
+                    {/* Misi - Cards Grid (diperbarui dari input pengguna) */}
                     <div>
-                        <h3 className="text-3xl font-bold text-gray-900 mb-12 text-center">Misi Kami</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            {/* Misi Card 1 */}
-                            <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
-                                <div className="h-24 bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
-                                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                    </svg>
+                        <h3 className="text-4xl font-bold text-gray-900 mb-12 text-center">Misi Kami</h3>
+                        <div className="flex flex-wrap justify-center gap-8">
+                            {missions.map((m, idx) => (
+                                <div key={idx} className={`bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group ${idx === 6 ? 'md:col-span-1 flex-basis-1/3 md:flex-basis-1/3 lg:w-1/3 max-w-sm' : 'w-full sm:w-96'}`}>
+                                    <div className="h-24 bg-sky-500 flex items-center justify-center">
+                                        {m.icon}
+                                    </div>
+                                    <div className="p-6">
+                                        <p className="text-gray-600">{m.text}</p>
+                                    </div>
                                 </div>
-                                <div className="p-6">
-                                    <h4 className="text-xl font-bold text-gray-900 mb-3">Pembangunan Infrastruktur</h4>
-                                    <p className="text-gray-600">Meningkatkan dan memelihara infrastruktur dasar untuk mendukung pertumbuhan ekonomi dan peningkatan kualitas hidup masyarakat.</p>
-                                </div>
-                            </div>
-
-                            {/* Misi Card 2 */}
-                            <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
-                                <div className="h-24 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                                    </svg>
-                                </div>
-                                <div className="p-6">
-                                    <h4 className="text-xl font-bold text-gray-900 mb-3">Pemberdayaan Masyarakat</h4>
-                                    <p className="text-gray-600">Memberdayakan masyarakat melalui pelatihan, pendidikan, dan akses terhadap sumber daya ekonomi untuk meningkatkan daya saing.</p>
-                                </div>
-                            </div>
-
-                            {/* Misi Card 3 */}
-                            <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden group">
-                                <div className="h-24 bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center">
-                                    <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                    </svg>
-                                </div>
-                                <div className="p-6">
-                                    <h4 className="text-xl font-bold text-gray-900 mb-3">Kesejahteraan Sosial</h4>
-                                    <p className="text-gray-600">Menjamin kesejahteraan sosial masyarakat melalui program bantuan sosial, kesehatan, dan pelayanan publik yang berkualitas.</p>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
                 </div>
@@ -106,45 +115,39 @@ const Home = () => {
             {/* 4. Struktur Organisasi Section */}
             <StructureSection />
 
-            {/* 5. Village Carousel Section */}
-            <VillageCarousel />
-
-            {/* 6. Peta Wilayah Section */}
+            {/* 5. Peta Wilayah Section */}
             <section className="py-16 bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-4xl font-bold text-gray-900 mb-4">Peta Wilayah</h2>
-                    <p className="text-lg text-gray-600 mb-12">Visualisasi geografis Kecamatan Merbau Mataram</p>
+                <div className="w-full px-6 lg:px-12">
+                    <h2 className="text-5xl font-bold text-gray-900 mb-4">Peta Wilayah</h2>
+                    <p className="text-xl text-gray-600 mb-12">Visualisasi geografis Kecamatan Merbau Mataram</p>
 
-                    {/* Map Placeholder */}
-                    <div className="bg-gradient-to-br from-gray-200 to-gray-300 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                        <img
-                            src="https://placehold.co/1000x500/9CA3AF/475569?text=Peta+Wilayah+Kecamatan+Merbau+Mataram"
-                            alt="Peta Wilayah"
-                            className="w-full h-auto"
-                        />
-                        <div className="p-6 bg-white text-center">
-                            <p className="text-gray-700 font-medium">Peta mendetail Kecamatan Merbau Mataram akan segera ditampilkan</p>
-                            <p className="text-gray-600 text-sm mt-2">Fitur interaktif sedang dalam pengembangan</p>
-                        </div>
+                    {/* Google Maps Embed */}
+                    <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.779620503476!2d105.32458632346997!3d-5.429168494124898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40a1a1a1a1a1a1%3A0x1a1a1a1a1a1a1a1a!2sMerbau%20Mataram%2C%20South%20Lampung%20Regency%2C%20Lampung!5e0!3m2!1sen!2sid!4v1706594400000"
+                            width="100%"
+                            height="500"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            className="w-full rounded-xl"
+                        ></iframe>
                     </div>
 
                     {/* Map Info Cards */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-                        <div className="bg-blue-50 rounded-lg p-6 text-center hover:bg-blue-100 transition-colors">
-                            <div className="text-3xl font-bold text-blue-600 mb-2">15</div>
-                            <p className="text-gray-700 font-medium">Desa & Kampung</p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-12 justify-items-center">
+                        <div className="bg-white rounded-lg p-6 text-center hover:bg-gray-50 transition-colors w-full max-w-xs border border-gray-200">
+                            <div className="text-3xl font-bold text-sky-600 mb-2">15</div>
+                            <p className="text-gray-700 font-medium">Desa</p>
                         </div>
-                        <div className="bg-green-50 rounded-lg p-6 text-center hover:bg-green-100 transition-colors">
-                            <div className="text-3xl font-bold text-green-600 mb-2">~25km²</div>
+                        <div className="bg-green-50 rounded-lg p-6 text-center hover:bg-green-100 transition-colors w-full max-w-xs">
+                            <div className="text-3xl font-bold text-green-600 mb-2">~158 km²</div>
                             <p className="text-gray-700 font-medium">Luas Wilayah</p>
                         </div>
-                        <div className="bg-purple-50 rounded-lg p-6 text-center hover:bg-purple-100 transition-colors">
-                            <div className="text-3xl font-bold text-purple-600 mb-2">~45K</div>
+                        <div className="bg-purple-50 rounded-lg p-6 text-center hover:bg-purple-100 transition-colors w-full max-w-xs">
+                            <div className="text-3xl font-bold text-purple-600 mb-2">~58.000</div>
                             <p className="text-gray-700 font-medium">Jumlah Penduduk</p>
-                        </div>
-                        <div className="bg-orange-50 rounded-lg p-6 text-center hover:bg-orange-100 transition-colors">
-                            <div className="text-3xl font-bold text-orange-600 mb-2">4</div>
-                            <p className="text-gray-700 font-medium">Bidang Operasional</p>
                         </div>
                     </div>
                 </div>
@@ -152,18 +155,15 @@ const Home = () => {
 
             {/* CTA Section */}
             <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <h2 className="text-4xl font-bold text-white mb-6">Ingin Tahu Lebih Banyak?</h2>
-                    <p className="text-xl text-indigo-100 mb-8 max-w-2xl mx-auto">
+                <div className="w-full px-6 lg:px-12 text-center">
+                    <h2 className="text-5xl font-bold text-white mb-6">Ingin Tahu Lebih Banyak?</h2>
+                    <p className="text-2xl text-indigo-100 mb-8 max-w-2xl mx-auto">
                         Jelajahi profil lengkap, statistik, dan program-program pembangunan Kecamatan Merbau Mataram
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-bold hover:bg-indigo-50 transition-colors shadow-lg">
-                            Lihat Profil Lengkap
-                        </button>
-                        <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors">
+                        <Link to="/kontak" className="border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white/10 transition-colors inline-block">
                             Hubungi Kami
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </section>

@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
+import Villages from './pages/Villages';
 import ProfilDesa from './pages/ProfilDesa';
 import Kontak from './pages/Kontak';
 
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />,
+            },
+            {
+                path: 'desa',
+                element: <Villages />,
             },
             {
                 path: 'profil-desa/:id',

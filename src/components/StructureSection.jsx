@@ -4,10 +4,10 @@ const StructureSection = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
-        <section className="py-16 bg-gray-50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-4xl font-bold text-gray-900 mb-4">Struktur Organisasi</h2>
-                <p className="text-lg text-gray-600 mb-12">Bagan organisasi Kecamatan Merbau Mataram</p>
+        <section className="py-16 bg-gray-50 font-poppins">
+            <div className="w-full px-6 lg:px-12">
+                <h2 className="text-5xl font-bold text-gray-900 mb-4">Struktur Organisasi</h2>
+                <p className="text-xl text-gray-600 mb-12">Bagan organisasi Kecamatan Merbau Mataram</p>
 
                 {/* Chart Container */}
                 <div className="bg-white rounded-xl shadow-lg overflow-hidden">
@@ -40,44 +40,7 @@ const StructureSection = () => {
                     </div>
                 </div>
 
-                {/* Organizational Info */}
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                        <div className="flex items-center mb-4">
-                            <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center">
-                                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                            </div>
-                            <h3 className="text-lg font-bold text-gray-900 ml-4">Camat</h3>
-                        </div>
-                        <p className="text-gray-600 text-sm">Pimpinan tertinggi Kecamatan yang bertanggung jawab atas seluruh administrasi dan pembangunan.</p>
-                    </div>
 
-                    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                        <div className="flex items-center mb-4">
-                            <div className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center">
-                                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3.623a1 1 0 01-.986-1.164l1.423-6.573A6 6 0 0121.15 8.62a6 6 0 00-5.197-3.266z" />
-                                </svg>
-                            </div>
-                            <h3 className="text-lg font-bold text-gray-900 ml-4">Sekretariat</h3>
-                        </div>
-                        <p className="text-gray-600 text-sm">Menangani administrasi umum, keuangan, dan koordinasi internal kantor kecamatan.</p>
-                    </div>
-
-                    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                        <div className="flex items-center mb-4">
-                            <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
-                                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                </svg>
-                            </div>
-                            <h3 className="text-lg font-bold text-gray-900 ml-4">Bidang-Bidang</h3>
-                        </div>
-                        <p className="text-gray-600 text-sm">Beberapa bidang operasional menangani pembangunan, kesejahteraan, dan pelayanan masyarakat.</p>
-                    </div>
-                </div>
             </div>
 
             {/* Modal/Lightbox */}

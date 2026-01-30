@@ -37,7 +37,7 @@ const ProfilDesa = () => {
     }
 
     return (
-        <div className="min-h-screen bg-white pb-20">
+        <div className="min-h-screen bg-white pb-20 font-poppins">
             {/* HERO / SLIDESHOW SECTION */}
             <div className="relative h-[60vh] w-full overflow-hidden bg-gray-900">
                 {village.images && village.images.length > 0 ? (
@@ -160,7 +160,7 @@ const ProfilDesa = () => {
                             {village.boundaries ? (
                                 <ul className="space-y-4">
                                     <li className="flex items-start gap-4 p-4 rounded-lg bg-gray-50 border border-gray-100">
-                                        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">U</div>
+                                        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center font-bold">U</div>
                                         <div>
                                             <p className="text-xs font-bold text-gray-500 uppercase tracking-wider">Utara</p>
                                             <p className="font-semibold text-gray-900">{village.boundaries.north}</p>
