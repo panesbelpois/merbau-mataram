@@ -1,16 +1,82 @@
-# React + Vite
+# Merbau Mataram Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website profil dan informasi tentang desa-desa di Merbau Mataram. Platform ini menyediakan informasi lengkap mengenai profil desa, struktur kepemimpinan, galeri foto, dan data kontak.
 
-Currently, two official plugins are available:
+## 🌐 Fitur Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Halaman Beranda (Home)** - Tampilan utama dengan hero section dan informasi umum tentang Merbau Mataram
+- **Daftar Desa** - Menampilkan daftar lengkap semua desa dengan thumbnail dan informasi singkat
+- **Profil Desa** - Detail lengkap setiap desa termasuk:
+  - Galeri foto dengan image carousel
+  - Informasi administrasi
+  - Struktur kepemimpinan desa
+  - Deskripsi dan sejarah desa
+- **Halaman Kontak** - Formulir dan informasi kontak
+- **Desain Responsif** - Tampilan optimal di desktop, tablet, dan mobile
 
-## React Compiler
+## 🏘️ Desa yang Tercakup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Karang Jaya
+- Talang Jawa
+- Karang Raja
+- Tri Harjo
+- Lebung Sari
+- Mekar Jaya
+- Puji Rahayu
+- Suban
+- Tanjung Jawa
+- Tanjung Baru
+- Tanjung Harapan
 
-## Expanding the ESLint configuration
+## 🛠️ teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: Lucide React
+- **Linting**: ESLint
+- **Deployment**: Vercel
+
+## 📦 Struktur Project
+
+```
+src/
+├── components/      # Komponen reusable (Navbar, Footer, HeroSection, dll)
+├── layouts/         # Layout utama aplikasi
+├── pages/           # Halaman-halaman aplikasi
+├── data/            # Data desa dan struktur kepemimpinan
+├── assets/          # Gambar dan aset statis
+└── App.jsx          # Router dan konfigurasi aplikasi
+```
+
+## 🚀 Cara Menggunakan
+
+### Setup
+```bash
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+
+### Build Production
+```bash
+npm run build
+```
+
+### Preview
+```bash
+npm run preview
+```
+
+### Lint
+```bash
+npm run lint
+```
+
+## 📝 Lisensi
+
+Semua konten dan data dalam website ini adalah milik Merbau Mataram.
